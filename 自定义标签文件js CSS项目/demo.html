@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>测试自定义插件</title>
+		<style>
+			*{margin: 0;padding: 0;}
+			body{
+				font-size: 12px;font-family: "微软雅黑";color: #FFFFFF;
+			}
+			.btn{width: 200px;height: 40px;background: #66CCFF;
+			display: block;text-align: center;line-height: 40px;
+			text-decoration: none;color: #FFFFFF;font-size: 14px;
+			margin: 200px auto; border-radius: 3px;}
+			.btn:hover{
+				background: #69f;
+			}
+			
+		</style>
+		<link rel="stylesheet" href="css/px_loading.css" />
+	</head>
+	<body>
+		
+		<a href="#" class="btn">请求后台数据</a>
+		
+		<script type="text/javascript" src="js/jquery-3.1.1.min.js" ></script>
+		<script type="text/javascript" src="js/px_loading.js" ></script>
+		<script>
+			$(".btn").click(function(){
+				//调用插件
+				$.px_loading({content:" 这里是自定义参数"});
+			});
+		
+			
+		</script>
+		
+		
+	</body>
+</html>

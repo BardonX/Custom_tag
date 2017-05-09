@@ -1,0 +1,7 @@
+body{font-size: 12px; font-family: "微软雅黑";
+			color: #666;}
+			#px-loading {width: 180px;height: 44px; background: 
+			rgb(17,157,169);/*margin: 200px auto; */position: absolute;top: 0;left: 0;
+			box-shadow: 2px 2px 10px -1px #000;
+			text-align: center;line-height: 44px;color: #666;font-size: 14px;}
+			#px-loading .t-img{vertical-align: middle;}
